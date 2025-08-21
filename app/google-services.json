@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "889637993553",
+    "project_id": "notexa-3e571",
+    "storage_bucket": "notexa-3e571.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889637993553:android:b8140fb5328391795f4c70",
+        "android_client_info": {
+          "package_name": "com.example.notexa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIFbJGaL6hfvSWfeDfhM9Lj8wL5aOc8aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

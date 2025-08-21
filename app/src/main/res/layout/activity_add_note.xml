@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E5FFFB">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Note"
+        android:fontFamily="@font/agbalumo_regular"
+        android:textSize="24sp"
+        android:textColor="#146D6A"
+        android:paddingBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:fontFamily="@font/aleo_regular"
+        android:textSize="16sp"
+        android:minHeight="48dp"
+        android:background="@android:color/white"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aleo_regular"
+        android:hint="Content"
+        android:gravity="top"
+        android:lineSpacingExtra="4dp"
+        android:lines="5"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnSaveNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Note"
+        android:textSize="16sp"
+        android:fontFamily="@font/agbalumo_regular"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#146D6A"
+        android:textColor="@color/white"/>
+</LinearLayout>
